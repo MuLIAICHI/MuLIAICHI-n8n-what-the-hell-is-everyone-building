@@ -1,0 +1,266 @@
+{
+  "node_combinations": [
+    {
+      "nodes": [
+        "Code",
+        "HTTP Request"
+      ],
+      "count": 1833
+    },
+    {
+      "nodes": [
+        "AI Agent",
+        "OpenAI Chat Model"
+      ],
+      "count": 1393
+    },
+    {
+      "nodes": [
+        "Code",
+        "Google Sheets"
+      ],
+      "count": 1165
+    },
+    {
+      "nodes": [
+        "Google Sheets",
+        "HTTP Request"
+      ],
+      "count": 1110
+    },
+    {
+      "nodes": [
+        "AI Agent",
+        "Code"
+      ],
+      "count": 1036
+    },
+    {
+      "nodes": [
+        "AI Agent",
+        "HTTP Request"
+      ],
+      "count": 960
+    },
+    {
+      "nodes": [
+        "AI Agent",
+        "Structured Output Parser"
+      ],
+      "count": 788
+    },
+    {
+      "nodes": [
+        "AI Agent",
+        "Simple Memory"
+      ],
+      "count": 735
+    },
+    {
+      "nodes": [
+        "HTTP Request",
+        "OpenAI Chat Model"
+      ],
+      "count": 728
+    },
+    {
+      "nodes": [
+        "Code",
+        "OpenAI Chat Model"
+      ],
+      "count": 681
+    },
+    {
+      "nodes": [
+        "AI Agent",
+        "Google Sheets"
+      ],
+      "count": 665
+    },
+    {
+      "nodes": [
+        "OpenAI Chat Model",
+        "Structured Output Parser"
+      ],
+      "count": 612
+    },
+    {
+      "nodes": [
+        "Code",
+        "Gmail"
+      ],
+      "count": 607
+    },
+    {
+      "nodes": [
+        "HTTP Request",
+        "OpenAI"
+      ],
+      "count": 552
+    },
+    {
+      "nodes": [
+        "HTTP Request",
+        "Structured Output Parser"
+      ],
+      "count": 551
+    },
+    {
+      "nodes": [
+        "Code",
+        "Structured Output Parser"
+      ],
+      "count": 508
+    },
+    {
+      "nodes": [
+        "OpenAI Chat Model",
+        "Simple Memory"
+      ],
+      "count": 490
+    },
+    {
+      "nodes": [
+        "Code",
+        "OpenAI"
+      ],
+      "count": 478
+    },
+    {
+      "nodes": [
+        "Gmail",
+        "HTTP Request"
+      ],
+      "count": 477
+    },
+    {
+      "nodes": [
+        "AI Agent",
+        "Google Gemini Chat Model"
+      ],
+      "count": 473
+    }
+  ],
+  "top_keywords": [
+    {
+      "keyword": "workflow",
+      "count": 30583
+    },
+    {
+      "keyword": "google",
+      "count": 24042
+    },
+    {
+      "keyword": "api",
+      "count": 20353
+    },
+    {
+      "keyword": "node",
+      "count": 18102
+    },
+    {
+      "keyword": "data",
+      "count": 17238
+    },
+    {
+      "keyword": "email",
+      "count": 12911
+    },
+    {
+      "keyword": "credentials",
+      "count": 9708
+    },
+    {
+      "keyword": "content",
+      "count": 9667
+    },
+    {
+      "keyword": "sheets",
+      "count": 9216
+    },
+    {
+      "keyword": "add",
+      "count": 8758
+    },
+    {
+      "keyword": "set",
+      "count": 8614
+    },
+    {
+      "keyword": "use",
+      "count": 8588
+    },
+    {
+      "keyword": "key",
+      "count": 8588
+    },
+    {
+      "keyword": "how",
+      "count": 7848
+    },
+    {
+      "keyword": "using",
+      "count": 7707
+    },
+    {
+      "keyword": "trigger",
+      "count": 7469
+    },
+    {
+      "keyword": "create",
+      "count": 7372
+    },
+    {
+      "keyword": "openai",
+      "count": 7258
+    },
+    {
+      "keyword": "sheet",
+      "count": 6899
+    },
+    {
+      "keyword": "telegram",
+      "count": 6530
+    },
+    {
+      "keyword": "agent",
+      "count": 6515
+    },
+    {
+      "keyword": "new",
+      "count": 6336
+    },
+    {
+      "keyword": "setup",
+      "count": 6201
+    },
+    {
+      "keyword": "nodes",
+      "count": 6150
+    },
+    {
+      "keyword": "all",
+      "count": 6140
+    },
+    {
+      "keyword": "url",
+      "count": 6083
+    },
+    {
+      "keyword": "time",
+      "count": 6031
+    },
+    {
+      "keyword": "via",
+      "count": 6019
+    },
+    {
+      "keyword": "account",
+      "count": 5944
+    },
+    {
+      "keyword": "automatically",
+      "count": 5925
+    }
+  ]
+}

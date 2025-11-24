@@ -1,0 +1,429 @@
+{
+  "summary_statistics": {
+    "total_workflows": 7020,
+    "total_views": 19468801,
+    "avg_views_per_workflow": 2773.333475783476,
+    "unique_creators": 1560,
+    "avg_nodes_per_workflow": 3.9316239316239314,
+    "free_workflows": 6058,
+    "paid_workflows": 962
+  },
+  "top_viewed": [
+    {
+      "name": "AI agent chat",
+      "totalViews": 780399,
+      "price": 0,
+      "node_count": 4,
+      "user_name": "n8n Team"
+    },
+    {
+      "name": "Creating an API endpoint",
+      "totalViews": 422411,
+      "price": 0,
+      "node_count": 0,
+      "user_name": "Jonathan"
+    },
+    {
+      "name": "Building Your First WhatsApp Chatbot",
+      "totalViews": 331713,
+      "price": 0,
+      "node_count": 10,
+      "user_name": "Jimleuk"
+    },
+    {
+      "name": "Scrape and summarize webpages with AI",
+      "totalViews": 291546,
+      "price": 0,
+      "node_count": 6,
+      "user_name": "n8n Team"
+    },
+    {
+      "name": "Very quick quickstart",
+      "totalViews": 232320,
+      "price": 0,
+      "node_count": 1,
+      "user_name": "Deborah"
+    },
+    {
+      "name": "Generate AI Viral Videos with Seedance and Upload to TikTok, YouTube & Instagram",
+      "totalViews": 214907,
+      "price": 0,
+      "node_count": 7,
+      "user_name": "Dr. Firas"
+    },
+    {
+      "name": "AI agent that can scrape webpages",
+      "totalViews": 211623,
+      "price": 0,
+      "node_count": 4,
+      "user_name": "Eduard"
+    },
+    {
+      "name": "✨🤖Automate Multi-Platform Social Media Content Creation with AI",
+      "totalViews": 205470,
+      "price": 0,
+      "node_count": 13,
+      "user_name": "Joseph LePage"
+    },
+    {
+      "name": "Pulling data from services that n8n doesn’t have a pre-built integration for",
+      "totalViews": 194346,
+      "price": 0,
+      "node_count": 1,
+      "user_name": "Jonathan"
+    },
+    {
+      "name": "Telegram AI Chatbot",
+      "totalViews": 168542,
+      "price": 0,
+      "node_count": 2,
+      "user_name": "Eduard"
+    },
+    {
+      "name": "Generate AI Videos with Google Veo3, Save to Google Drive and Upload to YouTube",
+      "totalViews": 155914,
+      "price": 0,
+      "node_count": 4,
+      "user_name": "Davide"
+    },
+    {
+      "name": "Scrape business emails from Google Maps without the use of any third party APIs",
+      "totalViews": 150209,
+      "price": 0,
+      "node_count": 3,
+      "user_name": "Akram Kadri"
+    },
+    {
+      "name": "Angie, Personal AI Assistant with Telegram Voice and Text",
+      "totalViews": 149314,
+      "price": 0,
+      "node_count": 5,
+      "user_name": "Derek Cheung"
+    },
+    {
+      "name": "Build Your First AI Data Analyst Chatbot",
+      "totalViews": 133537,
+      "price": 0,
+      "node_count": 7,
+      "user_name": "Solomon"
+    },
+    {
+      "name": "Fully Automated AI Video Generation & Multi-Platform Publishing",
+      "totalViews": 123870,
+      "price": 0,
+      "node_count": 6,
+      "user_name": "Juan Carlos Cavero Gracia"
+    },
+    {
+      "name": "Joining different datasets",
+      "totalViews": 122191,
+      "price": 0,
+      "node_count": 0,
+      "user_name": "Jonathan"
+    },
+    {
+      "name": "Ask questions about a PDF using AI",
+      "totalViews": 118063,
+      "price": 0,
+      "node_count": 9,
+      "user_name": "David Roberts"
+    },
+    {
+      "name": "AI-Powered Social Media Content Generator & Publisher",
+      "totalViews": 116411,
+      "price": 5,
+      "node_count": 8,
+      "user_name": "Amjid Ali"
+    },
+    {
+      "name": "Build Your First AI Agent",
+      "totalViews": 99862,
+      "price": 0,
+      "node_count": 3,
+      "user_name": "Lucas Peyrin"
+    },
+    {
+      "name": "Automated Web Scraping: email a CSV, save to Google Sheets & Microsoft Excel",
+      "totalViews": 99001,
+      "price": 0,
+      "node_count": 5,
+      "user_name": "Mihai Farcas"
+    }
+  ],
+  "top_nodes": [
+    {
+      "Node": "HTTP Request",
+      "Usage Count": 3357
+    },
+    {
+      "Node": "Code",
+      "Usage Count": 3079
+    },
+    {
+      "Node": "AI Agent",
+      "Usage Count": 2265
+    },
+    {
+      "Node": "Google Sheets",
+      "Usage Count": 2006
+    },
+    {
+      "Node": "OpenAI Chat Model",
+      "Usage Count": 1671
+    },
+    {
+      "Node": "Gmail",
+      "Usage Count": 1137
+    },
+    {
+      "Node": "Structured Output Parser",
+      "Usage Count": 1039
+    },
+    {
+      "Node": "OpenAI",
+      "Usage Count": 926
+    },
+    {
+      "Node": "Telegram",
+      "Usage Count": 883
+    },
+    {
+      "Node": "Google Drive",
+      "Usage Count": 793
+    },
+    {
+      "Node": "Simple Memory",
+      "Usage Count": 745
+    },
+    {
+      "Node": "Google Gemini Chat Model",
+      "Usage Count": 673
+    },
+    {
+      "Node": "Slack",
+      "Usage Count": 660
+    },
+    {
+      "Node": "Basic LLM Chain",
+      "Usage Count": 641
+    },
+    {
+      "Node": "Send Email",
+      "Usage Count": 376
+    },
+    {
+      "Node": "Airtable",
+      "Usage Count": 291
+    },
+    {
+      "Node": "OpenRouter Chat Model",
+      "Usage Count": 287
+    },
+    {
+      "Node": "Default Data Loader",
+      "Usage Count": 254
+    },
+    {
+      "Node": "HTML",
+      "Usage Count": 232
+    },
+    {
+      "Node": "Embeddings OpenAI",
+      "Usage Count": 227
+    },
+    {
+      "Node": "Call n8n Workflow Tool",
+      "Usage Count": 211
+    },
+    {
+      "Node": "Notion",
+      "Usage Count": 196
+    },
+    {
+      "Node": "Recursive Character Text Splitter",
+      "Usage Count": 167
+    },
+    {
+      "Node": "Information Extractor",
+      "Usage Count": 160
+    },
+    {
+      "Node": "Think Tool",
+      "Usage Count": 150
+    },
+    {
+      "Node": "Postgres",
+      "Usage Count": 147
+    },
+    {
+      "Node": "Google Docs",
+      "Usage Count": 146
+    },
+    {
+      "Node": "Anthropic Chat Model",
+      "Usage Count": 146
+    },
+    {
+      "Node": "Google Calendar",
+      "Usage Count": 131
+    },
+    {
+      "Node": "WhatsApp Business Cloud",
+      "Usage Count": 126
+    }
+  ],
+  "top_categories": [
+    {
+      "Category": "AI",
+      "Usage Count": 11396
+    },
+    {
+      "Category": "Langchain",
+      "Usage Count": 11396
+    },
+    {
+      "Category": "Development",
+      "Usage Count": 7249
+    },
+    {
+      "Category": "Core Nodes",
+      "Usage Count": 7179
+    },
+    {
+      "Category": "Communication",
+      "Usage Count": 3863
+    },
+    {
+      "Category": "Data & Storage",
+      "Usage Count": 3729
+    },
+    {
+      "Category": "HITL",
+      "Usage Count": 3368
+    },
+    {
+      "Category": "Productivity",
+      "Usage Count": 2645
+    },
+    {
+      "Category": "Marketing",
+      "Usage Count": 550
+    },
+    {
+      "Category": "Sales",
+      "Usage Count": 310
+    },
+    {
+      "Category": "Miscellaneous",
+      "Usage Count": 223
+    },
+    {
+      "Category": "Utility",
+      "Usage Count": 200
+    },
+    {
+      "Category": "Finance & Accounting",
+      "Usage Count": 69
+    },
+    {
+      "Category": null,
+      "Usage Count": 44
+    },
+    {
+      "Category": "Analytics",
+      "Usage Count": 35
+    }
+  ],
+  "top_creators": [
+    {
+      "creator_name": "David Ashby",
+      "workflow_count": 204,
+      "total_views": 27528,
+      "verified": true
+    },
+    {
+      "creator_name": "Harshil Agrawal",
+      "workflow_count": 186,
+      "total_views": 365115,
+      "verified": true
+    },
+    {
+      "creator_name": "Rahul Joshi",
+      "workflow_count": 165,
+      "total_views": 5428,
+      "verified": true
+    },
+    {
+      "creator_name": "Yaron Been",
+      "workflow_count": 160,
+      "total_views": 121537,
+      "verified": true
+    },
+    {
+      "creator_name": "Oneclick AI Squad",
+      "workflow_count": 143,
+      "total_views": 6011,
+      "verified": true
+    },
+    {
+      "creator_name": "Jimleuk",
+      "workflow_count": 100,
+      "total_views": 1215522,
+      "verified": true
+    },
+    {
+      "creator_name": "Davide",
+      "workflow_count": 98,
+      "total_views": 828067,
+      "verified": true
+    },
+    {
+      "creator_name": "David Olusola",
+      "workflow_count": 90,
+      "total_views": 42106,
+      "verified": true
+    },
+    {
+      "creator_name": "Robert Breen",
+      "workflow_count": 90,
+      "total_views": 27119,
+      "verified": true
+    },
+    {
+      "creator_name": "n8n Team",
+      "workflow_count": 89,
+      "total_views": 1805791,
+      "verified": true
+    },
+    {
+      "creator_name": "amudhan",
+      "workflow_count": 87,
+      "total_views": 364998,
+      "verified": true
+    },
+    {
+      "creator_name": "Jitesh Dugar",
+      "workflow_count": 65,
+      "total_views": 224,
+      "verified": true
+    },
+    {
+      "creator_name": "tanaypant",
+      "workflow_count": 58,
+      "total_views": 132821,
+      "verified": true
+    },
+    {
+      "creator_name": "Marth",
+      "workflow_count": 52,
+      "total_views": 842,
+      "verified": true
+    },
+    {
+      "creator_name": "Ranjan Dailata",
+      "workflow_count": 49,
+      "total_views": 44608,
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+venv
+n8n_data/raw/workflows_20251123_193803.json
+__pycache__/    
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+env/
+*.log
+*.sqlite3
+*.db
+*.egg-info/
