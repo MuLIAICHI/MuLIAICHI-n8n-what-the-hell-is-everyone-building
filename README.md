@@ -314,4 +314,4 @@ Feel free to use this for your n8n Learning Hub content and tutorials!
 
 **Happy Analyzing! 🎉**
 
-For questions or improvements, reach out on the r/n8nLearningHub community!
+For questions or improvements, reach out on the [automata_n8n](https://www.reddit.com/user/automata_n8n/) or mustaphaliaichi@gmail.com!
