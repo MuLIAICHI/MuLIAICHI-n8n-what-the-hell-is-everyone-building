@@ -264,7 +264,8 @@ Marketing                             1717
 
 ## 📞 Support
 
-- Reddit: r/n8nLearningHub
+- Reddit: [automata_n8n](https://www.reddit.com/user/automata_n8n/)
+- email: mustaphaliaichi@gmail.com
 - Website: n8nlearninghub.com
 - Issues: Check README.md for detailed troubleshooting
 
