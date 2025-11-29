@@ -1,0 +1,28 @@
+# Fine-tuning Dependencies
+# Install with: pip install -r requirements_finetuning.txt
+
+# Core ML libraries
+transformers>=4.36.0
+torch>=2.1.0
+datasets>=2.14.0
+accelerate>=0.25.0
+
+# For efficient fine-tuning (LoRA/QLoRA)
+peft>=0.7.0
+bitsandbytes>=0.41.0
+
+# For training monitoring
+tensorboard>=2.15.0
+wandb>=0.16.0
+
+# OpenAI (if using OpenAI fine-tuning)
+openai>=1.3.0
+
+# Utilities
+tqdm>=4.66.0
+scikit-learn>=1.3.0
+
+# For inference/serving
+fastapi>=0.104.0
+uvicorn>=0.24.0
+gradio>=4.7.0

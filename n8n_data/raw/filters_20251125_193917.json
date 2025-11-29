@@ -1,0 +1,179 @@
+[
+  {
+    "counts": [
+      {
+        "count": 4648,
+        "highlighted": "AI",
+        "value": "AI"
+      },
+      {
+        "count": 2514,
+        "highlighted": "Multimodal AI",
+        "value": "Multimodal AI"
+      },
+      {
+        "count": 2107,
+        "highlighted": "Marketing",
+        "value": "Marketing"
+      },
+      {
+        "count": 1378,
+        "highlighted": "Other",
+        "value": "Other"
+      },
+      {
+        "count": 1305,
+        "highlighted": "AI Summarization",
+        "value": "AI Summarization"
+      },
+      {
+        "count": 1114,
+        "highlighted": "Content Creation",
+        "value": "Content Creation"
+      },
+      {
+        "count": 894,
+        "highlighted": "Sales",
+        "value": "Sales"
+      },
+      {
+        "count": 852,
+        "highlighted": "IT Ops",
+        "value": "IT Ops"
+      },
+      {
+        "count": 751,
+        "highlighted": "AI Chatbot",
+        "value": "AI Chatbot"
+      },
+      {
+        "count": 740,
+        "highlighted": "Document Ops",
+        "value": "Document Ops"
+      }
+    ],
+    "field_name": "categories",
+    "sampled": false,
+    "stats": {
+      "total_values": 10
+    }
+  },
+  {
+    "counts": [
+      {
+        "count": 6041,
+        "highlighted": "Sticky Note",
+        "value": "Sticky Note"
+      },
+      {
+        "count": 3439,
+        "highlighted": "Edit Fields (Set)",
+        "value": "Edit Fields (Set)"
+      },
+      {
+        "count": 3371,
+        "highlighted": "HTTP Request",
+        "value": "HTTP Request"
+      },
+      {
+        "count": 3097,
+        "highlighted": "Code",
+        "value": "Code"
+      },
+      {
+        "count": 2718,
+        "highlighted": "If",
+        "value": "If"
+      },
+      {
+        "count": 2288,
+        "highlighted": "AI Agent",
+        "value": "AI Agent"
+      },
+      {
+        "count": 2057,
+        "highlighted": "Google Sheets",
+        "value": "Google Sheets"
+      },
+      {
+        "count": 1684,
+        "highlighted": "OpenAI Chat Model",
+        "value": "OpenAI Chat Model"
+      },
+      {
+        "count": 1638,
+        "highlighted": "Schedule",
+        "value": "Schedule"
+      },
+      {
+        "count": 1548,
+        "highlighted": "Manual",
+        "value": "Manual"
+      }
+    ],
+    "field_name": "apps",
+    "sampled": false,
+    "stats": {
+      "total_values": 10
+    }
+  },
+  {
+    "counts": [
+      {
+        "count": 6041,
+        "highlighted": "n8n-nodes-base.stickyNote",
+        "value": "n8n-nodes-base.stickyNote"
+      },
+      {
+        "count": 3439,
+        "highlighted": "n8n-nodes-base.set",
+        "value": "n8n-nodes-base.set"
+      },
+      {
+        "count": 3371,
+        "highlighted": "n8n-nodes-base.httpRequest",
+        "value": "n8n-nodes-base.httpRequest"
+      },
+      {
+        "count": 3097,
+        "highlighted": "n8n-nodes-base.code",
+        "value": "n8n-nodes-base.code"
+      },
+      {
+        "count": 2718,
+        "highlighted": "n8n-nodes-base.if",
+        "value": "n8n-nodes-base.if"
+      },
+      {
+        "count": 2288,
+        "highlighted": "@n8n/n8n-nodes-langchain.agent",
+        "value": "@n8n/n8n-nodes-langchain.agent"
+      },
+      {
+        "count": 2023,
+        "highlighted": "n8n-nodes-base.googleSheets",
+        "value": "n8n-nodes-base.googleSheets"
+      },
+      {
+        "count": 1684,
+        "highlighted": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "value": "@n8n/n8n-nodes-langchain.lmChatOpenAi"
+      },
+      {
+        "count": 1638,
+        "highlighted": "n8n-nodes-base.scheduleTrigger",
+        "value": "n8n-nodes-base.scheduleTrigger"
+      },
+      {
+        "count": 1548,
+        "highlighted": "n8n-nodes-base.manualTrigger",
+        "value": "n8n-nodes-base.manualTrigger"
+      }
+    ],
+    "field_name": "nodes",
+    "sampled": false,
+    "stats": {
+      "total_values": 10
+    }
+  }
+]

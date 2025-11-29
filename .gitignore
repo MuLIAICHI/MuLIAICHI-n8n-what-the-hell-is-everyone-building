@@ -10,3 +10,4 @@ env/
 *.sqlite3
 *.db
 *.egg-info/
+n8n-marketplace-analyzer/
