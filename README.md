@@ -500,103 +500,19 @@ If you use this project, model, or dataset in your work:
 
 ## 🤝 Contributing
 
-Contributions welcome! This is a living project.
+This is a starting point! You can extend it to:
+- Add more visualizations
+- Implement NLP on descriptions
+- Create interactive dashboards
+- Build comparison tools
+- Add export formats (CSV, Excel)
 
-**Ways to contribute:**
-- Improve analysis scripts
-- Add new visualizations
-- Enhance ML training pipeline
-- Create tutorials
-- Report bugs
-- Suggest features
+## 📄 License
 
-**Pull requests appreciated!**
-
----
-
-## 📜 License
-
-MIT License - See [LICENSE](LICENSE)
-
-**You are free to:**
-- Use commercially
-- Modify
-- Distribute
-- Use privately
-
-**Just:**
-- Include original license
-- State changes made
+Feel free to use this for your n8n Learning Hub content and tutorials!
 
 ---
 
-## 🙏 Acknowledgments
+**Happy Analyzing! 🎉**
 
-- **n8n Community** - For sharing 6,000+ workflows publicly
-- **Unsloth** - For making fine-tuning accessible
-- **Hugging Face** - For hosting infrastructure
-- **Apify** - For the platform and $1M Challenge
-- **Google Colab** - For GPU access
-- **r/n8n Community** - For 61K views and support
-
----
-
-## 📧 Contact
-
-**Mustapha Liaichi**
-- **Email:** mustaphaliaichi@gmail.com
-- **GitHub:** [@MuLIAICHI](https://github.com/MuLIAICHI)
-- **Website:** [n8nlearninghub.com](https://n8nlearninghub.com)
-- **Reddit:** [automata_n8n](https://www.reddit.com/user/automata_n8n/)
-- **Medium:** [@mustaphaliaichi](https://medium.com/@mustaphaliaichi)
-
----
-
-## ⭐ Star History
-
-If you find this project useful, please consider giving it a star! ⭐
-
-It helps others discover the project and motivates continued development.
-
----
-
-## 🎉 Success Metrics
-
-- **📊 6,837 workflows analyzed**
-- **🤖 1 LLM fine-tuned successfully**
-- **📝 2 Medium articles published**
-- **👥 61,000+ article views**
-- **⭐ 181 Reddit upvotes**
-- **🌐 1,000+ community members**
-- **🛠️ 1 production tool deployed**
-- **📚 4,000+ training examples created**
-- **✅ 100% inference quality**
-
----
-
-## 🚀 What's Next
-
-**Part 3: Deployment**
-- Gradio web interface
-- FastAPI endpoint
-- Production optimization
-- User testing & feedback
-
-**Future Ideas:**
-- Time-series trend analysis
-- Node relationship networks
-- Workflow recommendation engine
-- Quality prediction model
-- Interactive dashboard
-
----
-
-**Built with ❤️ by the n8n community**
-
-**From curiosity to creation. From analysis to AI. From hobby to production.**
-
-**This is what happens when you start with a simple question and follow it all the way through.**
-
----
-
-*Last updated: November 2024*
+For questions or improvements, reach out on the r/n8nLearningHub community!
