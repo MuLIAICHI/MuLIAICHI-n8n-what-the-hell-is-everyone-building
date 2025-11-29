@@ -426,7 +426,7 @@ python n8n_workflow_analyzer.py
 
 **📝 Articles:**
 - **Part 1:** [Medium Article](https://medium.com/@mustaphaliaichi/what-are-people-actually-building-in-n8n-i-scraped-over-6-000-workflows-to-find-out-59eb8e34c317)
-- **Part 2:** Coming soon
+- **Part 2:** [Medium Article P2](https://medium.com/@mustaphaliaichi/i-fine-tuned-llama-3-on-6-000-n8n-workflows-after-mistral-failed-spectacularly-927cce57df14?postPublishedType=initial)
 - **Part 3:** Coming soon
 
 **🌐 Community:**
@@ -515,4 +515,4 @@ Feel free to use this for your n8n Learning Hub content and tutorials!
 
 **Happy Analyzing! 🎉**
 
-For questions or improvements, reach out on the r/n8nLearningHub community!
+For questions or improvements, reach out on mustaphaliaichi@gmail.com !
