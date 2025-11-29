@@ -22,7 +22,7 @@ It evolved into:
 
 **📝 Read the full story:**
 - [Part 1: What Are People Actually Building in n8n?](https://medium.com/@mustaphaliaichi/what-are-people-actually-building-in-n8n-i-scraped-over-6-000-workflows-to-find-out-59eb8e34c317) - 61K Reddit views
-- [Part 2: I Fine-Tuned Llama 3 on 6,000 n8n Workflows](#) - Fine-tuning journey from failure to success
+- [Part 2: I Fine-Tuned Llama 3 on 6,000 n8n Workflows](https://medium.com/@mustaphaliaichi/i-fine-tuned-llama-3-on-6-000-n8n-workflows-after-mistral-failed-spectacularly-927cce57df14?postPublishedType=initia) - Fine-tuning journey from failure to success
 
 ---
 
@@ -330,7 +330,7 @@ python n8n_workflow_analyzer.py
    - The question, the scraping journey, key findings
    - 61K Reddit views, 181 upvotes
    
-2. [Part 2: Fine-Tuning Journey](#)
+2. [Part 2: Fine-Tuning Journey](https://medium.com/@mustaphaliaichi/i-fine-tuned-llama-3-on-6-000-n8n-workflows-after-mistral-failed-spectacularly-927cce57df14?postPublishedType=initia)
    - From Mistral failure to Llama success
    - Technical deep-dive, lessons learned
    
