@@ -11,3 +11,10 @@ env/
 *.db
 *.egg-info/
 n8n-marketplace-analyzer/
+analyze_data.py
+analysis_report.txt
+test.py
+apify_actor*.json
+apify-store-analyzer/
+
+
