@@ -1,7 +1,8 @@
 # n8n Marketplace Intelligence Suite 🚀
 
-**From curiosity to production:** A complete journey of scraping 6,000+ n8n workflows, analyzing patterns, and fine-tuning an LLM to generate workflows from natural language.
+**From curiosity to production:** A complete journey of scraping 6,000+ n8n workflows, analyzing patterns, fine-tuning an LLM, and deploying a web app that generates workflows from natural language.
 
+[![Try the App](https://img.shields.io/badge/🚀-Try_Live_App-orange)](https://huggingface.co/spaces/MustaphaL/n8n-workflow-generator-app)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MuLIAICHI/n8n-marketplace-analyzer/blob/main/fineTune/n8n_workflow_generator_fine_tuning.ipynb)
 [![HuggingFace Model](https://img.shields.io/badge/🤗-Model-yellow)](https://huggingface.co/MustaphaL/n8n-workflow-generator)
 [![HuggingFace Dataset](https://img.shields.io/badge/🤗-Dataset-blue)](https://huggingface.co/datasets/MustaphaL/n8n-workflow-training-data)
@@ -18,11 +19,13 @@ It evolved into:
 2. **Production Tool** - Apify actor with analytics
 3. **ML Training Data** - 4,000+ examples generated
 4. **LLM Fine-tuning** - Llama 3 8B trained to generate workflows
-5. **Public Resources** - Everything open-sourced
+5. **Web Application** - Gradio app deployed on HuggingFace Spaces
+6. **Public Resources** - Everything open-sourced
 
-**📝 Read the full story:**
+**📝 Read the complete story:**
 - [Part 1: What Are People Actually Building in n8n?](https://medium.com/@mustaphaliaichi/what-are-people-actually-building-in-n8n-i-scraped-over-6-000-workflows-to-find-out-59eb8e34c317) - 61K Reddit views
-- [Part 2: I Fine-Tuned Llama 3 on 6,000 n8n Workflows](https://medium.com/@mustaphaliaichi/i-fine-tuned-llama-3-on-6-000-n8n-workflows-after-mistral-failed-spectacularly-927cce57df14?postPublishedType=initia) - Fine-tuning journey from failure to success
+- [Part 2: I Fine-Tuned Llama 3 on 6,000 n8n Workflows](https://medium.com/@mustaphaliaichi/i-fine-tuned-llama-3-on-6-000-n8n-workflows-after-mistral-failed-spectacularly-927cce57df14) - Fine-tuning journey from failure to success
+- [Part 3: From Curiosity to Deployment](https://medium.com/@mustaphaliaichi/from-curiosity-to-deployment-how-i-turned-6-000-n8n-workflows-into-an-ai-generator-and-why-this-e916923826ea) - Building and deploying the Gradio app
 
 ---
 
@@ -148,7 +151,42 @@ Output:
 **The Journey:**
 - ❌ First attempt: Mistral 7B (catastrophic overfitting - loss → 0, gibberish output)
 - ✅ Second attempt: Llama 3 8B (smooth training, valid outputs)
-- 📖 Full story in [Part 2 article](#)
+- 📖 Full story in [Part 2 article](https://medium.com/@mustaphaliaichi/i-fine-tuned-llama-3-on-6-000-n8n-workflows-after-mistral-failed-spectacularly-927cce57df14)
+
+---
+
+### 5. Web Application (Gradio App) 🌐
+
+**Live App:** [Try it now!](https://huggingface.co/spaces/MustaphaL/n8n-workflow-generator-app)
+
+**What it does:**
+- ✅ Generate n8n workflows from plain English descriptions
+- ✅ No coding required - just describe what you want
+- ✅ Instant JSON output ready to import into n8n
+- ✅ Advanced settings (temperature, max tokens)
+- ✅ Example prompts included
+- ✅ Free to use (hosted on HuggingFace Spaces)
+
+**Features:**
+- **Simple Interface:** Just type what you want to automate
+- **Smart Loading:** Model loads once, stays in memory
+- **JSON Extraction:** Automatically extracts clean workflow JSON
+- **Dual Output:** See both raw generation and formatted JSON
+- **Example Prompts:** 8 built-in examples to get started
+
+**How to Use:**
+1. Go to the [live app](https://huggingface.co/spaces/MustaphaL/n8n-workflow-generator-app)
+2. Click "Load Model" (wait ~30 seconds)
+3. Describe your workflow in plain English
+4. Click "Generate Workflow"
+5. Copy the JSON and import into n8n
+
+**Example Prompts:**
+- "Build a Telegram chatbot that uses OpenAI to respond to messages"
+- "Create a workflow that monitors Gmail and sends Slack notifications"
+- "Build an automation that scrapes product prices and saves to Google Sheets"
+
+**Read the deployment story:** [Part 3 article](https://medium.com/@mustaphaliaichi/from-curiosity-to-deployment-how-i-turned-6-000-n8n-workflows-into-an-ai-generator-and-why-this-e916923826ea)
 
 ---
 
@@ -179,7 +217,20 @@ n8n-marketplace-analyzer/
 
 ## 🚀 Quick Start
 
-### Option 1: Use Pre-Built Resources
+### Option 1: Use the Web App (Easiest!)
+
+**Try the live app:**
+```
+1. Go to: https://huggingface.co/spaces/MustaphaL/n8n-workflow-generator-app
+2. Click "Load Model" (wait 30 seconds)
+3. Describe your workflow in plain English
+4. Click "Generate Workflow"
+5. Copy JSON and import into n8n
+```
+
+No installation. No coding. Just works.
+
+### Option 2: Use Pre-Built Resources
 
 **Try the Apify Actor:**
 ```
@@ -217,7 +268,7 @@ print(tokenizer.decode(outputs[0]))
 git clone https://huggingface.co/datasets/MustaphaL/n8n-workflow-training-data
 ```
 
-### Option 2: Run Locally
+### Option 3: Run Locally
 
 **1. Clone Repository:**
 ```bash
@@ -240,7 +291,7 @@ python n8n_workflow_scraper.py
 python n8n_workflow_analyzer.py
 ```
 
-### Option 3: Fine-Tune Your Own Model
+### Option 4: Fine-Tune Your Own Model
 
 **Open in Colab:**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MuLIAICHI/n8n-marketplace-analyzer/blob/main/fineTune/n8n_workflow_generator_fine_tuning.ipynb)
@@ -325,23 +376,28 @@ python n8n_workflow_analyzer.py
 - **QUICK_START_FINETUNING.md** - Get started quickly
 - **UNSLOTH_GUIDE.md** - Efficient fine-tuning with Unsloth
 
-### Blog Series
+### Blog Series (Complete!)
 1. [Part 1: Scraping & Analysis](https://medium.com/@mustaphaliaichi/what-are-people-actually-building-in-n8n-i-scraped-over-6-000-workflows-to-find-out-59eb8e34c317)
    - The question, the scraping journey, key findings
    - 61K Reddit views, 181 upvotes
    
-2. [Part 2: Fine-Tuning Journey](https://medium.com/@mustaphaliaichi/i-fine-tuned-llama-3-on-6-000-n8n-workflows-after-mistral-failed-spectacularly-927cce57df14?postPublishedType=initia)
+2. [Part 2: Fine-Tuning Journey](https://medium.com/@mustaphaliaichi/i-fine-tuned-llama-3-on-6-000-n8n-workflows-after-mistral-failed-spectacularly-927cce57df14)
    - From Mistral failure to Llama success
    - Technical deep-dive, lessons learned
    
-3. Part 3: Deployment (Coming Soon)
-   - Building production API
-   - Creating web interface
-   - Real user testing
+3. [Part 3: Deployment](https://medium.com/@mustaphaliaichi/from-curiosity-to-deployment-how-i-turned-6-000-n8n-workflows-into-an-ai-generator-and-why-this-e916923826ea)
+   - Building the Gradio app
+   - Deployment to HuggingFace Spaces
+   - Why this is where the journey ends
 
 ---
 
 ## 💻 Use Cases
+
+### For n8n Users
+- **Generate Workflows:** Use the web app to create workflows from descriptions
+- **Learn Patterns:** See what successful workflows look like
+- **Get Started Faster:** Jump-start your automation projects
 
 ### For Content Creators
 - **Content Ideas** - See what topics get views
@@ -388,6 +444,11 @@ python n8n_workflow_analyzer.py
 - PEFT (LoRA fine-tuning)
 - Weights & Biases (tracking)
 
+**Web Application:**
+- Gradio 4.44.0
+- HuggingFace Spaces
+- PyTorch & Transformers
+
 **Hardware:**
 - Google Colab Pro (A100 GPU)
 - ~$10/month for training
@@ -411,28 +472,33 @@ python n8n_workflow_analyzer.py
 - **GPU:** A100 (Colab Pro)
 - **Quality:** 15/15 test prompts
 - **Result:** Production-ready!
+- **Deployed:** Live web app serving users
 
 ---
 
 ## 🌐 All Resources
+
+**🚀 Live Applications:**
+- **Web App:** [n8n-workflow-generator-app](https://huggingface.co/spaces/MustaphaL/n8n-workflow-generator-app)
+- **Apify Actor:** [n8n-marketplace-analyzer](https://apify.com/scraper_guru/n8n-marketplace-analyzer)
 
 **🤗 Models & Data:**
 - **Model:** [MustaphaL/n8n-workflow-generator](https://huggingface.co/MustaphaL/n8n-workflow-generator)
 - **Dataset:** [MustaphaL/n8n-workflow-training-data](https://huggingface.co/datasets/MustaphaL/n8n-workflow-training-data)
 
 **🛠️ Tools:**
-- **Apify Actor:** [n8n-marketplace-analyzer](https://apify.com/scraper_guru/n8n-marketplace-analyzer)
 - **Colab Notebook:** [Fine-tuning Tutorial](https://colab.research.google.com/github/MuLIAICHI/n8n-marketplace-analyzer/blob/main/fineTune/n8n_workflow_generator_fine_tuning.ipynb)
 
-**📝 Articles:**
-- **Part 1:** [Medium Article](https://medium.com/@mustaphaliaichi/what-are-people-actually-building-in-n8n-i-scraped-over-6-000-workflows-to-find-out-59eb8e34c317)
-- **Part 2:** [Medium Article P2](https://medium.com/@mustaphaliaichi/i-fine-tuned-llama-3-on-6-000-n8n-workflows-after-mistral-failed-spectacularly-927cce57df14?postPublishedType=initial)
-- **Part 3:** Coming soon
+**📝 Complete Article Series:**
+- **Part 1:** [What Are People Actually Building?](https://medium.com/@mustaphaliaichi/what-are-people-actually-building-in-n8n-i-scraped-over-6-000-workflows-to-find-out-59eb8e34c317)
+- **Part 2:** [Fine-Tuning After Mistral Failed](https://medium.com/@mustaphaliaichi/i-fine-tuned-llama-3-on-6-000-n8n-workflows-after-mistral-failed-spectacularly-927cce57df14)
+- **Part 3:** [From Curiosity to Deployment](https://medium.com/@mustaphaliaichi/from-curiosity-to-deployment-how-i-turned-6-000-n8n-workflows-into-an-ai-generator-and-why-this-e916923826ea)
 
 **🌐 Community:**
 - **Website:** [n8nlearninghub.com](https://n8nlearninghub.com)
-- **Reddit:** [r/n8nLearningHub](https://reddit.com/r/n8nLearningHub) (1,000+ members)
+- **Reddit:** [automata_n8n](https://www.reddit.com/user/automata_n8n/) (1,000+ members)
 - **GitHub:** [@MuLIAICHI](https://github.com/MuLIAICHI)
+- **Medium:** [@mustaphaliaichi](https://medium.com/@mustaphaliaichi)
 
 ---
 
@@ -442,6 +508,7 @@ python n8n_workflow_analyzer.py
 Not just a scraper - it's the full story from curiosity to production.
 
 ### 2. Real Value
+- Free web app for generating workflows
 - Free analytics tool (Apify)
 - Open training data
 - Pre-trained model
@@ -451,6 +518,7 @@ Not just a scraper - it's the full story from curiosity to production.
 - Shared failures (Mistral overfitting)
 - Shared successes (Llama working)
 - Complete transparency
+- Full documentation
 
 ### 4. Community First
 - 61K article views
@@ -460,15 +528,16 @@ Not just a scraper - it's the full story from curiosity to production.
 
 ### 5. Production Quality
 - Not a toy project
-- Real users
+- Real users using the web app
 - Maintained code
 - Documented thoroughly
+- Actually finished!
 
 ---
 
 ## 📚 Citation
 
-If you use this project, model, or dataset in your work:
+If you use this project, model, dataset, or app in your work:
 
 ```bibtex
 @software{liaichi2024n8nanalyzer,
@@ -494,6 +563,14 @@ If you use this project, model, or dataset in your work:
   publisher = {Hugging Face},
   url = {https://huggingface.co/datasets/MustaphaL/n8n-workflow-training-data}
 }
+
+@software{liaichi2024n8napp,
+  author = {Mustapha Liaichi},
+  title = {n8n Workflow Generator Web App},
+  year = {2024},
+  publisher = {Hugging Face Spaces},
+  url = {https://huggingface.co/spaces/MustaphaL/n8n-workflow-generator-app}
+}
 ```
 
 ---
@@ -506,13 +583,17 @@ This is a starting point! You can extend it to:
 - Create interactive dashboards
 - Build comparison tools
 - Add export formats (CSV, Excel)
+- Improve the web app UI
+- Add more training data
 
 ## 📄 License
 
-Feel free to use this for your n8n Learning Hub content and tutorials!
+MIT License - Feel free to use this for your n8n Learning Hub content and tutorials!
 
 ---
 
-**Happy Analyzing! 🎉**
+**Happy Automating! 🎉**
 
-For questions or improvements, reach out on mustaphaliaichi@gmail.com !
+For questions or improvements, reach out at mustaphaliaichi@gmail.com
+
+**Built with curiosity, completed with persistence.**
