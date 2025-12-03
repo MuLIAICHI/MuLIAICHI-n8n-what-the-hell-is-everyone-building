@@ -496,7 +496,7 @@ python n8n_workflow_analyzer.py
 
 **🌐 Community:**
 - **Website:** [n8nlearninghub.com](https://n8nlearninghub.com)
-- **Reddit:** [automata_n8n](https://www.reddit.com/user/automata_n8n/) (1,000+ members)
+- **Reddit:** [automata_n8n](https://www.reddit.com/user/automata_n8n/)
 - **GitHub:** [@MuLIAICHI](https://github.com/MuLIAICHI)
 - **Medium:** [@mustaphaliaichi](https://medium.com/@mustaphaliaichi)
 
