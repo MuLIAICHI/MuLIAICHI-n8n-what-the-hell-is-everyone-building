@@ -594,6 +594,4 @@ MIT License - Feel free to use this for your n8n Learning Hub content and tutori
 
 **Happy Automating! 🎉**
 
-For questions or improvements, reach out at mustaphaliaichi@gmail.com
-
 **Built with curiosity, completed with persistence.**
